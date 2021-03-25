@@ -10,14 +10,14 @@ int main()
     //it++;
     it=it+2;
     cout<<*(it);
-/*
+
     vector<int>::iterator it=vet.end();//it point the address of end-1
     vector<int>::iterator it=v.rend();//it point the address of second position that means 20 address
     vector<int>::iterator it.rbegin();//it point the address of last value
 
     cout<<vet[0]<<" "<<vet.at(0)<<endl;//to access the values in vector
     cout<<vet.back()<<endl;//access the last value
-*/
+
     //ways to print the vector
     for(vector<int>::iterator it=vet.begin();it!=vet.end();it++)
     {
